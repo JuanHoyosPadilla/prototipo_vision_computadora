@@ -8,7 +8,7 @@ import imutils
 #-- FUNCION QUE PRENDE LA CAMARA DE OPENCV--#
 def encender():
     global cap
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     visualizar()
 
 #FUNCION QUE APAGA LA CAMARA DE OPENCV--#
